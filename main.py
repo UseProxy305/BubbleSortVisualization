@@ -15,7 +15,7 @@ from Algorithms import barsChangeDraw
 screen=pygame.display.set_mode((const.width,const.height)) #Set Width & Height
 pygame.font.init() #Writing with a text is enabled
 defaultFont = pygame.font.Font(None, const.fontSize) #Setted Font Size
-pygame.display.set_caption("Selection Sort Algorithm Visualtion")   #Caption for the application
+pygame.display.set_caption("Bubble Sort Algorithm Visualtion")   #Caption for the application
 screen.fill(const.backgroundColour) #Background Color is painted into that whole screen
 #Buttons
 quitButton = Button(const.quitStartWidth,const.quitStartHeight,const.quitWidth,const.quitHeight,const.rectangleColor,'QUIT')
